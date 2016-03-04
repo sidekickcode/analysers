@@ -1,0 +1,6 @@
+{
+  "sidekick-jshint": {
+    "registry": "npm",
+    "languages": ["javascript"]
+  }
+}
