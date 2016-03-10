@@ -22,6 +22,126 @@
       }
     }
   },
+  "sidekick-coffeelint": {
+    "registry": "npm",
+    "config": {
+      "analyser": "coffeelint",
+      "version": "0.0.1",
+      "interpreter": "node",
+      "script": "index.js",
+      "scope": "blob",
+      "category": "object",
+      "tagger": false,
+      "configurable": true,
+      "language": "cs",
+      "shortName": "coffeelint",
+      "displayName": "Code issues (coffeelint)",
+      "displayColor": "brown",
+      "displayCategory": "quality",
+      "shortDescription": "Checks your code for quality issues.",
+      "underlyingAnalyser": {
+        "name": "coffeelint",
+        "url": "https://github.com/clutchski/coffeelint"
+      }
+    }
+  },
+  "sidekick-eslint": {
+    "registry": "npm",
+    "config": {
+      "analyser": "eslint",
+      "version": "0.0.1",
+      "interpreter": "node",
+      "script": "eslint.js",
+      "scope": "blob",
+      "category": "object",
+      "tagger": false,
+      "configurable": true,
+      "configFiles": [
+        ".eslintrc"
+      ],
+      "shortName": "eslint",
+      "displayColor": "purple",
+      "language": "js",
+      "displayName": "Code issues (eslint)",
+      "displayCategory": "quality",
+      "shortDescription": "Checks your code for quality issues.",
+      "underlyingAnalyser": {
+        "name": "eslint",
+        "url" : "https://github.com/eslint/eslint"
+      }
+    }
+  },
+  "sidekick-jscs": {
+    "registry": "npm",
+    "config": {
+      "analyser": "jscs",
+      "version": "0.0.1",
+      "interpreter": "node",
+      "script": "jscs.js",
+      "scope": "blob",
+      "category": "object",
+      "configurable": true,
+      "configFiles": [
+        ".jscsrc"
+      ],
+      "language": "js",
+      "displayName": "Code style (jscs)",
+      "shortName": "jscs",
+      "displayColor": "yellow",
+      "itemType": "style violation",
+      "displayCategory": "style",
+      "shortDescription": "Checks that your code conforms to your code style guidelines.",
+      "underlyingAnalyser": {
+        "name": "jscs",
+        "url": "https://github.com/jscs-dev/node-jscs"
+      }
+    }
+  },
+  "sidekick-jshint": {
+    "registry": "npm",
+    "config": {
+      "analyser": "sidekick-jshint",
+      "version": "1.0.0",
+      "interpreter": "node",
+      "script": "jshint.js",
+      "scope": "blob",
+      "category": "object",
+      "configurable": true,
+      "configFiles": [
+        ".jshintrc"
+      ],
+      "language": "js",
+      "shortName": "jshint",
+      "displayName": "Code issues (jshint)",
+      "displayCategory": "quality",
+      "shortDescription": "Checks your code for quality issues.",
+      "underlyingAnalyser": {
+        "name": "jshint",
+        "url": "https://github.com/jshint/jshint"
+      }
+    }
+  },
+  "sidekick-js-todos": {
+    "registry": "npm",
+    "config": {
+      "analyser": "sidekick-js-todos",
+      "version": "0.1.0",
+      "interpreter": "node",
+      "script": "index.js",
+      "scope": "blob",
+      "tagger": false,
+      "language": "js",
+      "category": "object",
+      "shortName": "todo/fixme",
+      "displayCategory": "style",
+      "displayName": "TODOs and FIXMEs",
+      "shortDescription": "Finds TODO and FIXME comments in your code.",
+      "underlyingAnalyser": {
+        "name": "js-todos",
+        "url": "https://github.com/sidekickcode/sidekick-js-todos"
+      }
+    }
+  },
   "sidekick-security": {
     "registry": "npm",
     "config": {
