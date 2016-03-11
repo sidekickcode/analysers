@@ -3,7 +3,7 @@
     "registry": "npm",
     "config": {
       "analyser": "sidekick-david",
-      "version": "1.0.1",
+      "version": "1.0.5",
       "interpreter": "node",
       "script": "index.js",
       "scope": "blob",
