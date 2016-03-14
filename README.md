@@ -2,7 +2,7 @@
 
 Listing of all analysers that can be used by Sidekick - if you've written one please make a PR!
 
-## The format of additions to the analyser list should be as follows:
+### The format of additions to the analyser list should be as follows:
 
 ```
   "[analyser name goes here]": {
