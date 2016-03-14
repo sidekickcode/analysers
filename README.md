@@ -11,9 +11,9 @@ Listing of all analysers that can be used by Sidekick - if you've written one pl
   }
 ```
 
-where `analyser name` needs to be unique in our list of analysers. If you are wrapping an open source project, then its probably good to reference the underlying project in the name, e.g. sidekick-eslint (uses the eslint project).
-where `registry name` needs to be a publically available registry such as `npm`.
-where `analyer config` is the contents of your analyser's `config.json` file. 
+ - where `analyser name` needs to be unique in our list of analysers. If you are wrapping an open source project, then its probably good to reference the underlying project in the name, e.g. sidekick-eslint (uses the eslint project).
+ - where `registry name` needs to be a publically available registry such as `npm`.
+ - where `analyer config` is the contents of your analyser's `config.json` file. 
 
 Check out our guide to writing your own analysers [here](https://github.com/sidekickcode/sidekick-analyser).
   
