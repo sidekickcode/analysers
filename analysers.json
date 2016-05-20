@@ -114,6 +114,7 @@
       "shortName": "jshint",
       "displayName": "Code issues (jshint)",
       "displayCategory": "quality",
+      "displayColor": "teal",
       "shortDescription": "Checks your code for quality issues.",
       "underlyingAnalyser": {
         "name": "jshint",
