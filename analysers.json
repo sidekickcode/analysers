@@ -33,7 +33,7 @@
       "category": "object",
       "tagger": false,
       "configurable": true,
-      "language": "cs",
+      "language": "coffee",
       "shortName": "coffeelint",
       "displayName": "Code issues (coffeelint)",
       "displayColor": "brown",
